@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 const { Schema } = mongoose;
 
-const connectionString = "mongodb://localhost:27017";
+const connectionString = "mongodb://localhost:27017/paytm";
 
 const userSchema = new Schema({
   firstName: {
